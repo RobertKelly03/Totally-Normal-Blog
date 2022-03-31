@@ -12,3 +12,26 @@
     font-family: 'Courier New', Courier, monospace;
 
 }
+
+#dataform1 {
+    text-align: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+#suggestionbox {
+    text-align: center;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
