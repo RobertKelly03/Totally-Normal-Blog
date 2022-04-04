@@ -1,8 +1,17 @@
-# SHOP 2 GO 
+# Totally Normal Blog
 
-End goal: Machine learning algorithems will take information based on the users purchases and inputs to decide and find new products based on the point in life that user is at. Information will also be acquired from community based ratings of lists and will accomodate said lists to fit the user's needs.
+## End Goal
+  
+> To host a blog website in which two contributors can post information about their intersts and hobbies while on their journies through education to pursue a career in tech. 
 
 
 
+```
 live Site: https://robertkelly03.github.io/shop2go/
+```
 
+## Usage 
+
+> Indulge in some of the most normal personal interest and hobbies held by two very normal COMP SCI Students/ Junior Software Developers.
+
+SITE CURRENTLY UNDER CONSTRUCTION
