@@ -7,7 +7,7 @@
 
 
 ```
-live Site: https://robertkelly03.github.io/shop2go/
+live Site: live Site: https://robertkelly03.github.io/shop2go/
 ```
 
 ## Usage 
