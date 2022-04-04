@@ -5,32 +5,15 @@
 
 #mainheader {
     text-align: center;
-    background-color: rgb(230, 230, 196);
+    background-color: rgb(59, 59, 47);
     border-radius: 5px;
     margin-top: 10px;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 1px gray;
+    text-shadow: 3px 1px red;
+    color: aqua;
 
-}
-
-#dataform1 {
-    text-align: center;
-    border-radius: 10px;
-    background-color: antiquewhite;
-    margin-left: 20%;
-    margin-right: 20%;
-
-}
-
-
-#suggestionbox {
-    text-align: center;
-    border: none;
-    background-color: antiquewhite;
-    border-radius: 5px;
-    padding: 3px;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 #mainsubhead {
@@ -45,5 +28,42 @@
     margin-left: auto;
     margin-right: auto;
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 2px 2px 1px gray;
 }
 
+#colhead {
+    text-align: center;
+    background-color: rgb(59, 59, 47);
+    padding: 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 3px 3px 1px gray;
+    color: rgb(183, 125, 238);
+    text-shadow: 2px 1px rgb(187, 55, 172);
+
+}
+
+#columnsec {
+    text-align: left;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 2px 2px 1px gray;
+}
+
+#footer {
+    margin-top: 95%;
+    text-align: center;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+}
