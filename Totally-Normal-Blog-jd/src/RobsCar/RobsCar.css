@@ -1,0 +1,65 @@
+
+#MainHeading {
+    text-align: center;
+    font-family: "fantasy", copperplate;
+    font-size: 60px;
+    text-shadow: 2px, 2px black ;
+
+}
+
+#PartLHeading {
+    text-align: center;
+    color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 50px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase;
+    background-color: #f9dd94;
+    border-radius: 5px;
+}
+#grad {
+    background-image: linear-gradient(to right, rgb(0, 255, 174), yellow);
+  }
+  
+
+ #partslist li {
+    list-style-type: none;
+    counter-increment: item;
+    padding: 7px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #partslist li:before {
+    content: counter(item);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: #f9dd94;
+    color: #7eb4e2;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+
+  #ProccessHeading {
+    text-align: center;
+  }
+
+  #proccesslist li {
+    list-style-type: none;
+    counter-increment: item;
+    padding: 7px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  #proccesslist li:before {
+    content: counter(item);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: #f9dd94;
+    color: #7eb4e2;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+  }
+      
