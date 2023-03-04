@@ -14,8 +14,24 @@
     border-radius: 5px;
 }
 #grad {
-    background-image: linear-gradient(to right, rgb(0, 255, 174), yellow);
-  }
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
   
 
  #partslist li {
@@ -53,12 +69,12 @@
   #proccesslist li:before {
     content: counter(item);
     margin-right: 5px;
-    font-size: 80%;
-    background-color: #f9dd94;
-    color: #7eb4e2;
+    font-size: 180%;
+    background-color: #f6674e;
+    color: #07121b;
     font-weight: bold;
-    padding: 3px 10px;
-    border-radius: 3px;
+    padding: 5px 15px;
+    border-radius: 20px;
     margin-bottom: 10px;
 
   }
